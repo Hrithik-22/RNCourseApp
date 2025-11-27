@@ -10,9 +10,9 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import './global.css';
 function App() {
   return (
-    <SafeAreaView className="flex-1">
+    <SafeAreaView>
       <View className=" bg-cyan-300 justify-center items-center">
-        <Text className="text-2xl color-black">HI</Text>
+        <Text className=" color-black text-2xl">HI</Text>
       </View>
     </SafeAreaView>
   );
